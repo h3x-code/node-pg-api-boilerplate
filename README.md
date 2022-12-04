@@ -30,7 +30,7 @@ Simple boilerplate to start your node api quickly and easily
 
 ## Todo
 
-- [-] Logging
+- [ ] Logging
 - [ ] Error codes instead of messages
 - [ ] API documentation
 - [ ] Strings config file
@@ -42,13 +42,13 @@ To clone and run this application, you'll need [Git](https://git-scm.com), [Node
 
 ```bash
 # Clone this repository
-$ git clone https://github.com/h3x-code/node-pg-api-boilerplate.git
+git clone https://github.com/h3x-code/node-pg-api-boilerplate.git
 
 # Go into the repository
-$ cd node-pg-api-boilerplate
+cd node-pg-api-boilerplate
 
 # Install dependencies
-$ yarn install
+yarn install
 
 # Copy configuration file
 cp config/env.config.example.js config/env.config.js
@@ -59,7 +59,7 @@ cp config/env.config.example.js config/env.config.js
 psql -U your_username -d dbname_in_env-config -a -f init/users.sql
 
 # Run the app
-$ yarn start
+yarn start
 ```
 
 ## Usage
